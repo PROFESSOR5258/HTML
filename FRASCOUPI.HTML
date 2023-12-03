@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>www.frascopizza.com</title>
+
+    <style>
+        .buttonclass{
+            background-color: grey;
+            color: black;
+        }
+
+        .buttonclass:hover{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body bgcolor="aqua">
+    <center>
+        FRASCO PIZZA
+    
+
+    <form>
+        <table cellpadding="7"  bgcolor="cyan">
+            <tr>
+                <td colspan="2" align="center">
+                    FRASCO NEW UPI REGISTRATION
+                </td>
+            </tr>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    Account Number
+                </td>
+                <td><input type="number" name="accno"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    Re-type Account Number
+                </td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td>
+                     Bank Name
+                </td>
+                <td>
+                    <select name="bname" id="bank">
+                        <option value="" disabled selected>---Select Bank Name---</option>
+                        <option value="HDFC">   HDFC    </option>
+                        <option value="SBI">    SBI     </option>
+                        <option value="BOM">    BOM     </option>
+                        <option value="AXIS">   AXIS    </option>
+                        <option value="BHARAT"> BHARAT  </option>
+                        <option value="ICICI">  ICICI   </option>
+                        <option value="KOTAK">  KOTAK   </option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nick Name</td>
+                <td><input type="text" name="Nname"></td>
+            </tr>
+
+            <tr>
+                <td>Occupation</td>
+                <td>
+                    <input type="radio" name="Occ" value="JOB">JOB
+                    <input type="radio" name="Occ" value="BUSINESS">BUSINESS
+                    <input type="radio" name="Occ" value="SELF EMPLOYED">SELF EMPLOYED
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="number" name="pnumber"></td>
+            </tr>
+            
+            <tr>
+                
+                <td align="center" colspan="2">
+                    <input type="submit" name="Register" class="buttonclass">
+                    <input type="reset" name="reset" class="buttonclass">
+                </td>
+                
+            </tr>
+            
+        </table>
+            </center>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+Anchor Tag
+--------
+This tag is used to link one or more documents on web page. Document can be
+web page, pdf file, word file,exel file, java,python files etc
+
+
+Syntax:
+------
+
+<a href="filename">....</a>
+
+
+eg.    <a href="Resume.pdf"> Resume Format</a>
+
+
+       <a href="Program.pdf"> Java Program</a>
+
+
+
+
+Anchor tag also play an important role to redirect page from one page to another page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Login page
+----------
+Username
+password
+buttons
+
+
+
+
+
+

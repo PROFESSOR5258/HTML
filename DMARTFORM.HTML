@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>www.Dmart.com</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #brandname{
+            background-color:gold;
+            padding: 5px;
+        }
+        p{
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body bgcolor="jetblack">
+    
+        <div id="brandname">
+            <h2> D-MART </h2>
+            <p>Home Daily Needs</p>
+        </div>
+
+    <center>
+
+        <table cellpadding="7">
+
+            <tr>
+                <th colspan="2">
+                    <font color="white">
+                    <h3>Customer Product Billing</h3>
+                    </font>
+                </th>
+            </tr>
+
+            <tr>
+                <td>Product Name</td>
+                <td><input type="text" name="pname"></td>
+            </tr>
+
+            <tr>
+                <td>Product Rate</td>
+                <td><input type="text" name="rate"></td>
+
+            </tr>
+
+            <tr>
+                <td>Product Quantity</td>
+                <td><input type="text" name="quantity"></td>
+            </tr>
+
+            <tr>
+                <td> Select GST</td>
+                <td>
+                    <select name="gst_percentage" >
+                        <option value="" disabled selected>-----Select State GST-----</option>
+                        <option value="10">10%</option>
+                        <option value="20">20%</option>
+                        <option value="30">30%</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Bill Amount</td>
+                <td><input type="text" name="bamount"></td>
+            </tr>
+
+            <tr >
+                <td colspan="2" align="center"><input type="submit" value="Submit bill" >
+                <input type="reset" value="Reset bill"></td>
+            </tr>
+            
+        </table>
+    </center>
+
+
+    
+</body>
+</html>
